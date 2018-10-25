@@ -22,7 +22,6 @@ export class Home implements OnInit {
     // }
 
     ngOnInit() {
-        console.log('test')
         this.data = this.homeService.getData().subscribe((data)=>{
             console.log(data);
             this.data = data;

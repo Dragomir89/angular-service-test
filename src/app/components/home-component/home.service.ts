@@ -11,9 +11,7 @@ export class HomeServise {
     // constructor (private http: Http) {}
     constructor (private http: HttpClient) {}
 
-    // getData() {
-    //     return this.http.get(this.url);
-    // }
+    
     getData() {
         return this.http.get(this.url);
     }
